@@ -1,0 +1,32 @@
+
+body {
+position: absolute;
+left: 28px;
+transform: scale(0.6);
+}
+area, img.pointer{
+cursor: pointer;
+}
+.top{
+position: absolute; 
+  padding-left: 28px;
+    padding-top: 100px
+}
+
+
+.scroll{
+position: absolute; 
+height: 1096px;
+width: 540px;
+overflow-x: hidden;
+overflow-y: auto;
+display:block;
+margin-top:-109px
+}
+
+.load{
+position: absolute; 
+top:460px;
+width: 500px;
+left: 500px; 
+transform: scale(2.8,0.5);
